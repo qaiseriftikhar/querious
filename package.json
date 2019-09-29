@@ -1,0 +1,22 @@
+{
+  "name": "querious",
+  "version": "0.0.1",
+  "description": "Authorisation System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qaiseriftikhar/querious.git"
+  },
+  "keywords": [
+    "Authorisation"
+  ],
+  "author": "Qaiser Iftikhar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/qaiseriftikhar/querious/issues"
+  },
+  "homepage": "https://github.com/qaiseriftikhar/querious#readme"
+}
