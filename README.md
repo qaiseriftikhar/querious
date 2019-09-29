@@ -1,2 +1,3 @@
 # querious
-Authorisation system 
+Authorisation system
+Supports RBAC 
