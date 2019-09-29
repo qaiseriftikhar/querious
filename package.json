@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/qaiseriftikhar/querious/issues"
   },
-  "homepage": "https://github.com/qaiseriftikhar/querious#readme"
+  "homepage": "https://github.com/qaiseriftikhar/querious#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
 }
