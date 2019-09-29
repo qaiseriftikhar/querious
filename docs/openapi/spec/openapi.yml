@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: "Querious"
+  version: "0.0.1"
+  contact:
+    name: Qaiser Iftikhar
+    email: qaiseriftikhar@gmail.com
+    url: https://querious.co.uk/contact #Placeholder for now
+servers:
+  - url: http://localhost:8002/api
+    description: Local development

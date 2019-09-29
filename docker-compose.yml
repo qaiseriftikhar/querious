@@ -1,7 +1,20 @@
 version: "3.7"
 services: 
+  openapi-ui:
+    image: swaggerapi/swagger-ui:v3.23.11
+    ports:
+      - "8000:8080"
+    environment: 
+      - API_URL=http://localhost:8001
+    depends_on: 
+      - openapi-docs
+  openapi-docs:
+    image: nginx:1.17.4-alpine
+    ports:
+      - "8001:8001"
+    volumes: 
+      - "./docs/openapi/spec:/usr/share/nginx/html"
+      - "./docs/openapi/docker/nginx-cors.conf:/etc/nginx/conf.d/nginx-cors.conf"
   # api:
   # ui:
-  # swagger:
-  # swagger-nginx:
 
